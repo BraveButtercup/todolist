@@ -1,6 +1,6 @@
 Welcome to the Todo List Application! This simple application helps you manage your tasks efficiently. You can add, view, edit and delete tasks as per your requirements.
 
-Link: [Todo List](https://https://bravebuttercup.github.io/todolist/)
+Link: [Todo List](https://bravebuttercup.github.io/todolist/)
 
 ## Features
 
