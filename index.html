@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List 2</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header">
+          <h2>To do List</h2>
+        </div>
+        <div class="new-todo">
+          <form class="new-todo-form js-new-todo">
+            <input
+              type="text"
+              name="newtodo"
+              class="js-newtodo"
+              placeholder="I will do..."
+            />
+            <button type="submit"><i class="bi bi-plus-circle"></i></button>
+          </form>
+        </div>
+      </header>
+      <div class="todos-list js-todos-list"></div>
+      <div class="js-notification notification"></div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
